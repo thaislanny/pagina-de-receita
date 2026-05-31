@@ -1,1 +1,66 @@
-.
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: hsl(30, 54%, 90%);
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 770px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img {
+    width: 700px;
+    border-radius: 16px;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.preparationTime {
+  background: hsl(330, 100%, 98%);
+  font-family: "Outfit", sans-serif; 
+  font-weight: 400;
+}
+
+
+h2 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+ul { /* adicionando as bolinhas */
+    list-style: inside;
+}
+
+.preparationTime  li::marker { /* pintando a bolinha */
+    color: hsl(332, 51%, 32%)
+}
+
+.preparationTime strong {
+    font-weight: 700;
+}
+
+.preparationTime li {
+    color: hsl(30, 10%, 34%);
+    ;
+}
