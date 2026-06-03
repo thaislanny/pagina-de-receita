@@ -5,6 +5,7 @@ body {
     background-color: hsl(30, 54%, 90%);
     justify-content: center;
     align-items: center;
+    font-family: "Outfit", sans-serif;
 }
 
 main {
@@ -31,39 +32,72 @@ h1 {
 
 p {
     color: hsl(30, 10%, 34%);
-    font-family: "Outfit", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .preparationTime {
   background: hsl(330, 100%, 98%);
-  font-family: "Outfit", sans-serif; 
   font-weight: 400;
 }
-
 
 h2 {
     color: hsl(332, 51%, 32%);
     font-weight: 600;
     font-size: 16px;
-    
 }
 
-ul { /* adicionando as bolinhas */
+.preparationTime ul { /* adicionando as bolinhas */
     list-style: inside;
 }
 
-.preparationTime  li::marker { /* pintando a bolinha */
-    color: hsl(332, 51%, 32%)
+.preparationTime li::marker { /* pintando a bolinha */
+    color: hsl(332, 51%, 32%);
+    font-size: x-small;
 }
 
-.preparationTime strong {
+
+
+li {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h3 {
+    font-family:"Young Serif", serif; 
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.ingredients ul {
+    list-style: square;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: x-small;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.preparationTime strong,
+.instructions strong {
     font-weight: 700;
 }
 
-.preparationTime li {
-    color: hsl(30, 10%, 34%);
-    ;
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+  margin: 32px 0;
 }
-
