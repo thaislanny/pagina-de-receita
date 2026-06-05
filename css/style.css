@@ -19,7 +19,8 @@ main {
     padding: 40px;
     width: 100%;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 60px 100px;
+    border-radius: 10px;
 }
 
 img {
@@ -31,22 +32,34 @@ h1 {
   color: hsl(24, 5%, 18%);
   font-family: "Young Serif", serif;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 .preparationTime {
   background: hsl(330, 100%, 98%);
   font-weight: 400;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 h2 {
     color: hsl(332, 51%, 32%);
     font-weight: 600;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .preparationTime ul { /* adicionando as bolinhas */
     list-style: inside;
+}
+
+li {
+    margin: 10px;
 }
 
 .preparationTime li::marker { /* pintando a bolinha */
@@ -59,6 +72,12 @@ h3 {
     color: hsl(14, 45%, 36%);
     font-weight: 400;
     font-size: 20px;
+    margin: 20px 0;
+}
+
+.ingredients li,
+.instructions li {
+    padding-left: 24px;
 }
 
 .ingredients ul {
@@ -103,3 +122,8 @@ table strong {
 tr {
     border-bottom: 1px solid #ddd;
 }
+
+td {
+  padding: 12px 0;
+}
+
